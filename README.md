@@ -32,3 +32,26 @@ Install dependencies using the provided script:
 - **Mac/Linux**:  
   ```bash
   bash setup_env.sh
+  ```
+  - **Windows:
+    ```bash
+    setup_env.bat
+    ```
+--
+## Required Dependencies:
+ultralytics
+
+---
+
+### 2. 📁 Dataset
+- Use the dataset provided by Duality AI.
+
+- Structure should follow:
+```bash
+dataset/
+  ├── train/
+  ├── val/
+  └── test/
+```
+Ensure paths are correctly specified in yolo_params.yaml.
+
