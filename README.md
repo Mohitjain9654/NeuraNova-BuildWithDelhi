@@ -42,8 +42,7 @@ Install dependencies using the provided script:
 - ultralytics
   
 ---
-### 2. 📁 Dataset
-
+## 2. 📁 Dataset
 - Use the dataset provided by Duality AI.
 
 - Structure should follow:
@@ -57,11 +56,11 @@ dataset/
 
 ---
 
-### 3. 🏋️ Model Training
+## 3. 🏋️ Model Training
 Train the model from scratch using:
 
 ```bash 
-yolo train data="/path/to/your/yolo_params.yaml" model="yolov8l.pt" epochs=100 imgsz=640
+yolo train data="yolo_params.yaml" model="yolov8l.pt" epochs=100 imgsz=640
 ```
 - yolo_params.yaml: Contains dataset path and class definitions.
 
