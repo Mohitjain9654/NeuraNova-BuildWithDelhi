@@ -118,3 +118,18 @@ Thank you to Duality AI for hosting this hackathon and providing an innovative p
 ## 📧 Contact
 Feel free to reach out via GitHub or email for any questions or collaborations!
 
+---
+
+## 🙋‍♂️ Author
+
+Built with ❤️ by Team NeuraNova
+
+Feel free to connect or collaborate!
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/mohit-jain-dev/)  
+- 💻 [GitHub](https://github.com/Mohitjain9654)  
+- 🌐 [Portfolio Website](https://mohitjain-portfolio.vercel.app/)  
+- 📧 Email: mohitjain965405@gmail.com
+- 📧 Email: 418214brigadiermadhu@gmail.com
+
+---
