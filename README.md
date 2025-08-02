@@ -31,18 +31,16 @@ Install dependencies using the provided script:
 
 - **Mac/Linux**:  
   ```bash
-  bash setup_env.sh
+  setup_env.sh
   ```
-  - **Windows:
+- **Windows:
     ```bash
     setup_env.bat
     ```
---
+---
 ## Required Dependencies:
 ultralytics
-
 ---
-
 ### 2. 📁 Dataset
 - Use the dataset provided by Duality AI.
 
