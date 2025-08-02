@@ -27,22 +27,12 @@ This project involves:
 
 ### 1. ✅ Environment Setup
 
-Install dependencies using the provided script:
+Our project was developed in a Python environment. You can set up the required dependencies by running the following command:
 
-- **Mac/Linux**:  
   ```bash
-  setup_env.sh
-  ```
-- **Windows:
-    ```bash
-    setup_env.bat
-    ```
----
-## Install Required Dependencies:
-- ultralytics
-```bash
 !pip install ultralytics
-```
+  ```
+This command will install the ultralytics library, which includes all the necessary components for running the YOLOv8 model, including torch, pandas, and matplotlib.
   
 ---
 ## 2. 📁 Dataset
@@ -76,19 +66,13 @@ from ultralytics import YOLO
 ---
 
 ## 🧪 Inference
-Use the following code to run inference:
+To run inference using our final, trained model (best.pt), use this simple command:
 
 ```bash
-from ultralytics import YOLO
-
-# Load best model
-model = YOLO("runs/detect/train/weights/best.pt")
-
-# Perform inference
-results = model("/path/to/your/test_image.png", conf=0.1, show=True)
+!yolo predict model="runs/detect/train/weights/best.pt" source="test_image.png" conf=0.1
 ```
 
-- Results will be saved under the runs/ directory.
+- Results will be saved as new images with bounding boxes in the runs/ directory
 
 ---
 
@@ -129,7 +113,6 @@ Feel free to connect or collaborate!
 - 🔗 [LinkedIn](https://www.linkedin.com/in/mohit-jain-dev/)  
 - 💻 [GitHub](https://github.com/Mohitjain9654)  
 - 🌐 [Portfolio Website](https://mohitjain-portfolio.vercel.app/)  
-- 📧 Email: mohitjain965405@gmail.com
-- 📧 Email: 418214brigadiermadhu@gmail.com
+- 📧 Email: mohitjain965405@gmail.com, 418214brigadiermadhu@gmail.com
 
 ---
