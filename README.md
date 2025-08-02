@@ -17,9 +17,9 @@ This project involves:
 
 | Metric        | Score         |
 |---------------|---------------|
-| **mAP@0.5**    | [Your Final mAP Score]% |
-| **Precision**  | [Your Precision Score]% |
-| **Recall**     | [Your Recall Score]% |
+| **mAP@0.5**    | 94% |
+| **Precision**  | 99.4% |
+| **Recall**     | 90.2% |
 
 ---
 
@@ -59,9 +59,9 @@ from ultralytics import YOLO
 ```
 - yolo_params.yaml: Contains dataset path and class definitions.
 
-- yolov8l.pt: Pre-trained YOLOv8 large model.
+- yolov8l.pt: Pre-trained YOLOv8 small model.
 
-- epochs=500: Training duration.
+- epochs=100: Training duration.
 
 ---
 
