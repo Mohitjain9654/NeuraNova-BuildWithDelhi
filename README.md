@@ -38,8 +38,11 @@ Install dependencies using the provided script:
     setup_env.bat
     ```
 ---
-## Required Dependencies:
+## Install Required Dependencies:
 - ultralytics
+```bash
+!pip install ultralytics
+```
   
 ---
 ## 2. 📁 Dataset
@@ -59,8 +62,10 @@ dataset/
 ## 3. 🏋️ Model Training
 Train the model from scratch using:
 
-```bash 
-yolo train data="yolo_params.yaml" model="yolov8l.pt" epochs=100 imgsz=640
+```bash
+from ultralytics import YOLO
+
+!yolo train data="yolo_params.yaml" model="yolov8l.pt" epochs=100 imgsz=640
 ```
 - yolo_params.yaml: Contains dataset path and class definitions.
 
