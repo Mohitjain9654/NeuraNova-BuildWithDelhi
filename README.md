@@ -69,3 +69,47 @@ yolo train data="yolo_params.yaml" model="yolov8l.pt" epochs=100 imgsz=640
 - epochs=500: Training duration.
 
 ---
+
+## 🧪 Inference
+Use the following code to run inference:
+
+```bash
+from ultralytics import YOLO
+
+# Load best model
+model = YOLO("runs/detect/train/weights/best.pt")
+
+# Perform inference
+results = model("/path/to/your/test_image.png", conf=0.1, show=True)
+```
+
+- Results will be saved under the runs/ directory.
+
+---
+
+## 📂 Project Structure
+```bash
+├── yolo_params.yaml       # Dataset config file
+├── train.py               # Training script
+├── predict.py             # Inference script
+├── runs/                  # Model weights & logs
+├── NeuraNova_Report.pdf   # Detailed methodology & results
+└── README.md              # This file
+```
+
+---
+
+## 👥 Team Members
+- Mohit Jain (Team Leader)
+- Madhu Pilli
+
+---
+
+## 💬 Acknowledgments
+Thank you to Duality AI for hosting this hackathon and providing an innovative platform and dataset. We look forward to your feedback and the opportunity to contribute to space-tech innovation! 🛸
+
+---
+
+## 📧 Contact
+Feel free to reach out via GitHub or email for any questions or collaborations!
+
